@@ -1,12 +1,18 @@
-<h1>My Lists</h1>
-
-<%= link_to "+ Create a new list!", new_list_path%>
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://files.delhievents.com/images/events/2019/september/film-reel.jpg);">
+  <div class="container">
+    <h1>Movie Lists</h1>
+    <p>Organise your movies into personlised lists</p>
+    <a class="btn btn-primary" <%= link_to "Create a new list!", new_list_path%> </a>
+  </div>
+</div>
 
 <div class="container">
-<ul>
-  <% @lists.each do |list| %>
-    <li><%= link_to list.name, list_path(list.id)%>
-  <% end %>
-</ul>
-
+  <h1>My Lists</h1>
+  <div class="cards">
+      <% @lists.each do |list| %>
+        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2342&q=80)">
+          <%= link_to list.name, list_path(list.id)%>
+        </div>
+      <% end %>
+  </div>
 </div>
