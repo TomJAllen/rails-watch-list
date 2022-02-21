@@ -15,12 +15,38 @@
 //fonts
 @font-face {
     font-family: 'Showtime';
-    src: url('Showtime.eot');
-    src: url('Showtime.eot?#iefix') format('embedded-opentype'),
-        url('Showtime.woff2') format('woff2'),
-        url('Showtime.woff') format('woff'),
-        url('Showtime.ttf') format('truetype'),
-        url('Showtime.svg#Showtime') format('svg');
+    src: url('fonts/Showtime.eot');
+    src: url('fonts/Showtime.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Showtime.woff2') format('woff2'),
+        url('fonts/Showtime.woff') format('woff'),
+        url('fonts/Showtime.ttf') format('truetype'),
+        url('fonts/Showtime.svg#Showtime') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MovieTimes';
+    src: url('fonts/MovieTimes.eot');
+    src: url('fonts/MovieTimes.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MovieTimes.woff2') format('woff2'),
+        url('fonts/MovieTimes.woff') format('woff'),
+        url('fonts/MovieTimes.ttf') format('truetype'),
+        url('fonts/MovieTimes.svg#MovieTimes') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MidnightChampion';
+    src: url('fonts/MidnightChampion.eot');
+    src: url('fonts/MidnightChampion.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MidnightChampion.woff2') format('woff2'),
+        url('fonts/MidnightChampion.woff') format('woff'),
+        url('fonts/MidnightChampion.ttf') format('truetype'),
+        url('fonts/MidnightChampion.svg#MidnightChampion') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;

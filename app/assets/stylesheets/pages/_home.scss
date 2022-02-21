@@ -1,7 +1,20 @@
 // Specific CSS for your home-page
 
-
-
 h1 {
-  font-family: 'Showtime';
+  font-family: 'MovieTimes';
+  color: rgb(20, 20, 20);
+}
+.banner-info {
+padding-top: 16px;
+padding-bottom: 16px;
+background-color: rgba(255, 255, 255, 0.63);
+color:rgb(20, 20, 20);
+width: 100vw;
+text-overflow: clip;
+}
+
+#main-title {
+  width: 100vw;
+  font-size: 3ev;
+  text-align: center;
 }
